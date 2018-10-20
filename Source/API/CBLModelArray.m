@@ -21,7 +21,7 @@
 
 @implementation CBLModelArray
 {
-    CBLModel* _owner;
+    __weak CBLModel* _owner;
     NSString* _property;
     Class _itemClass;
     NSArray* _docIDs;
