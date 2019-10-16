@@ -5578,7 +5578,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "source \"$SCRIPT_INPUT_FILE_0\"\n";
+			shellScript = "# source \"$SCRIPT_INPUT_FILE_0\"\n";
 		};
 		27B0B8061492BE2100A817AD /* Copy Library */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -5592,7 +5592,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "cp \"${UNIVERSAL_BUILD_DIR}/libCouchbaseLiteFat.a\" \"${CONFIGURATION_BUILD_DIR}/${EXECUTABLE_PATH}\"\n";
+			shellScript = "# cp \"${UNIVERSAL_BUILD_DIR}/libCouchbaseLiteFat.a\" \"${CONFIGURATION_BUILD_DIR}/${EXECUTABLE_PATH}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		27E66ACB1A7305B10091DA3F /* Build Fat Library */ = {
@@ -5608,7 +5608,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "source \"$SCRIPT_INPUT_FILE_0\"\n";
+			shellScript = "# source \"$SCRIPT_INPUT_FILE_0\"\n";
 			showEnvVarsInLog = 0;
 		};
 		27E66B3F1A7307590091DA3F /* Build Fat Library */ = {
@@ -5624,7 +5624,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "source \"$SCRIPT_INPUT_FILE_0\"";
+			shellScript = "# source \"$SCRIPT_INPUT_FILE_0\"\n";
 			showEnvVarsInLog = 0;
 		};
 		7EA76A092356C744000118DE /* Check Git Commit */ = {
@@ -5702,7 +5702,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 			shellPath = /bin/sh;
-			shellScript = "source \"$SCRIPT_INPUT_FILE_0\"";
+			shellScript = "# source \"$SCRIPT_INPUT_FILE_0\"\n";
 			showEnvVarsInLog = 0;
 		};
 		DA023B6014BCA94C008184BB /* Build Fat Library */ = {
@@ -7076,11 +7076,12 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
+				DERIVE_MACCATALYST_PRODUCT_BUNDLE_IDENTIFIER = YES;
 				DEVELOPMENT_TEAM = VWD67942DL;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
 				SDKROOT = iphoneos;
-				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MACCATALYST = YES;
 				VALID_ARCHS = "arm64 arm64e armv7 armv7s x86_64";
 			};
 			name = Debug;
@@ -7094,11 +7095,12 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
+				DERIVE_MACCATALYST_PRODUCT_BUNDLE_IDENTIFIER = YES;
 				DEVELOPMENT_TEAM = VWD67942DL;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
 				SDKROOT = iphoneos;
-				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MACCATALYST = YES;
 				VALID_ARCHS = "arm64 arm64e armv7 armv7s x86_64";
 			};
 			name = Release;
@@ -7107,6 +7109,9 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 27FFFF181C973FB5001A70FC /* iOS library_Debug.xcconfig */;
 			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = NO;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
 			};
 			name = Debug;
 		};
@@ -7114,6 +7119,9 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 27FFFF191C973FB5001A70FC /* iOS library_Release.xcconfig */;
 			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = NO;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
 			};
 			name = Release;
 		};
@@ -7169,6 +7177,8 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 27FFFF391C973FB5001A70FC /* SQLite Storage_Debug.xcconfig */;
 			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
 			};
 			name = Debug;
 		};
@@ -7176,6 +7186,8 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 27FFFF3A1C973FB5001A70FC /* SQLite Storage_Release.xcconfig */;
 			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
 			};
 			name = Release;
 		};
@@ -7183,6 +7195,8 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 27FFFF0C1C973FB5001A70FC /* ForestDB Storage_Debug.xcconfig */;
 			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
 			};
 			name = Debug;
 		};
@@ -7190,6 +7204,8 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 27FFFF0D1C973FB5001A70FC /* ForestDB Storage_Release.xcconfig */;
 			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
 			};
 			name = Release;
 		};
@@ -7567,6 +7583,8 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 27FFFF421C973FB5001A70FC /* CBLJSViewCompiler_Debug.xcconfig */;
 			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
 			};
 			name = Debug;
 		};
@@ -7574,6 +7592,8 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 27FFFF431C973FB5001A70FC /* CBLJSViewCompiler_Release.xcconfig */;
 			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
 			};
 			name = Release;
 		};
