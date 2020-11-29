@@ -7,24 +7,16 @@
 	objects = {
 
 /* Begin PBXAggregateTarget section */
-		275A29061649A54000B0D8EE /* All */ = {
+		275A29061649A54000B0D8EE /* XCFramework */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 275A29071649A54000B0D8EE /* Build configuration list for PBXAggregateTarget "All" */;
+			buildConfigurationList = 275A29071649A54000B0D8EE /* Build configuration list for PBXAggregateTarget "XCFramework" */;
 			buildPhases = (
+				7E14E5AC23CB51A30064684C /* Build Frameworks */,
+				7E14E5AD23CB52FB0064684C /* Create XCFramework */,
 			);
 			dependencies = (
-				275A290B1649A54500B0D8EE /* PBXTargetDependency */,
-				275A29131649A54F00B0D8EE /* PBXTargetDependency */,
-				27452C1F1AB1F51600327776 /* PBXTargetDependency */,
-				275A290D1649A54700B0D8EE /* PBXTargetDependency */,
-				275A29151649A55200B0D8EE /* PBXTargetDependency */,
-				275A29171649A55500B0D8EE /* PBXTargetDependency */,
-				27208F98184FC077006ADBEF /* PBXTargetDependency */,
-				275A290F1649A54A00B0D8EE /* PBXTargetDependency */,
-				275A29111649A54C00B0D8EE /* PBXTargetDependency */,
-				27B15522164AD14E00DF5E2C /* PBXTargetDependency */,
 			);
-			name = All;
+			name = XCFramework;
 			productName = All;
 		};
 /* End PBXAggregateTarget section */
@@ -1087,13 +1079,6 @@
 			remoteGlobalIDString = 27B0B7E61492BB6B00A817AD;
 			remoteInfo = "iOS Framework";
 		};
-		27208F97184FC077006ADBEF /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 08FB7793FE84155DC02AAC07 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 27FA59EA179EEACA0043460A;
-			remoteInfo = Documentation;
-		};
 		272AA8461A48D835004B8D55 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 08FB7793FE84155DC02AAC07 /* Project object */;
@@ -1150,13 +1135,6 @@
 			remoteGlobalIDString = 27B0B7A81492B83B00A817AD;
 			remoteInfo = "CBL iOS library";
 		};
-		27452C1E1AB1F51600327776 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 08FB7793FE84155DC02AAC07 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 27452BB71AB1180800327776;
-			remoteInfo = "CBL iOS framework";
-		};
 		275315FD14ACF87F0065964D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 08FB7793FE84155DC02AAC07 /* Project object */;
@@ -1191,55 +1169,6 @@
 			proxyType = 2;
 			remoteGlobalIDString = 27139B3018F8E9750021A9A3;
 			remoteInfo = CBForestTests;
-		};
-		275A290A1649A54500B0D8EE /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 08FB7793FE84155DC02AAC07 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 270B3DE91489359000E0A926;
-			remoteInfo = "TouchDB-Mac";
-		};
-		275A290C1649A54700B0D8EE /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 08FB7793FE84155DC02AAC07 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 27B0B7E61492BB6B00A817AD;
-			remoteInfo = "TouchDB-iOS";
-		};
-		275A290E1649A54A00B0D8EE /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 08FB7793FE84155DC02AAC07 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 27C70693148864BA00F0F099;
-			remoteInfo = "TouchDB Mac Demo";
-		};
-		275A29101649A54C00B0D8EE /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 08FB7793FE84155DC02AAC07 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 27B0B80A1492C16300A817AD;
-			remoteInfo = "TouchDB iOS Demo";
-		};
-		275A29121649A54F00B0D8EE /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 08FB7793FE84155DC02AAC07 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 275315D414ACF0A10065964D;
-			remoteInfo = "TouchDBListener-Mac";
-		};
-		275A29141649A55200B0D8EE /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 08FB7793FE84155DC02AAC07 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = DA147C1F14BCAC3B0052DA4D;
-			remoteInfo = "TouchDBListener-iOS";
-		};
-		275A29161649A55500B0D8EE /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 08FB7793FE84155DC02AAC07 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 270FE0C714C5008C005FF647;
-			remoteInfo = LiteServ;
 		};
 		2773D0231DF7459B00880394 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -1324,13 +1253,6 @@
 			proxyType = 1;
 			remoteGlobalIDString = 275D3A081B0273020013B9A9;
 			remoteInfo = "BLIP-iOS";
-		};
-		27B15521164AD14E00DF5E2C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 08FB7793FE84155DC02AAC07 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 27731F131495CFEF00815D67;
-			remoteInfo = "TouchDB iOS Empty App";
 		};
 		27B7E10C18F8FE2800044EBA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -4476,6 +4398,8 @@
 					};
 					27452BB71AB1180800327776 = {
 						CreatedOnToolsVersion = 6.3;
+						DevelopmentTeam = VWD67942DL;
+						ProvisioningStyle = Automatic;
 					};
 					275315D414ACF0A10065964D = {
 						DevelopmentTeam = N2Q372V7W2;
@@ -4542,7 +4466,7 @@
 				270FE0C714C5008C005FF647 /* LiteServ */,
 				27538F4F17F13B03004C3BFD /* LiteServ App */,
 				27FA59EA179EEACA0043460A /* Documentation */,
-				275A29061649A54000B0D8EE /* All */,
+				275A29061649A54000B0D8EE /* XCFramework */,
 				273E9EEC1C509F38003115A6 /* CBL tvOS Test App */,
 				2700358A1A44E9270015B9F4 /* CBL iOS Unit Tests */,
 				272AA83E1A48D835004B8D55 /* CBL Mac Unit Tests */,
@@ -4883,6 +4807,42 @@
 			shellPath = /bin/sh;
 			shellScript = "# source \"$SCRIPT_INPUT_FILE_0\"\n";
 			showEnvVarsInLog = 0;
+		};
+		7E14E5AC23CB51A30064684C /* Build Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Build Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "XCODE_VERSION=$(xcodebuild -version | head -n 1| awk -F ' ' '{print $2}')\nXCODE_VERSION_MAJOR=$(echo $XCODE_VERSION | awk -F '.' '{print $1}')\nPROJECT=\"CouchbaseLite\"\nSCHEME=\"CBL iOS framework - Carthage\"\n\nmkdir -p $(SRCROOT)/build\ndeclare -a PLATFORMS=(\"iphoneos\" \"iphonesimulator\" \"maccatalyst\")\nfor CURRENT_PLATFORM in \"${PLATFORMS[@]}\"\ndo\n    if [[ $CURRENT_PLATFORM == *\"simulator\" ]]; then\n        xcodebuild build -project \"${PROJECT}.xcodeproj\" -sdk \"${CURRENT_PLATFORM}\" -scheme \"${SCHEME}\" -configuration \"Debug\" -derivedDataPath \"${SRCROOT}/build/DerivedData\" CONFIGURATION_BUILD_DIR=\"${SRCROOT}/build/${CURRENT_PLATFORM}/\"\n    else\n    # macOS Catalyst\n    if [[ $CURRENT_PLATFORM == \"maccatalyst\" ]]; then\n        if [[ $XCODE_VERSION_MAJOR -lt 11 ]]; then\n            # Xcode 10 does not support macOS Catalyst\n            continue\n        else\n            xcodebuild archive -project \"${PROJECT}.xcodeproj\" -scheme \"${SCHEME}\" -configuration \"Release\" -destination 'platform=macOS,arch=x86_64,variant=Mac Catalyst' -archivePath \"${SRCROOT}/build/${CURRENT_PLATFORM}/${PROJECT}.xcarchive\" -derivedDataPath \"${SRCROOT}/build/DerivedData\" SKIP_INSTALL=NO\n        fi\n    else\n        xcodebuild archive -project \"${PROJECT}.xcodeproj\" -sdk \"${CURRENT_PLATFORM}\" -scheme \"${SCHEME}\" -configuration \"Release\" -archivePath \"${SRCROOT}/build/${CURRENT_PLATFORM}/${PROJECT}.xcarchive\" SKIP_INSTALL=NO\n    fi\n    mv \"${SRCROOT}/build/${CURRENT_PLATFORM}/${PROJECT}.xcarchive/Products/Library/Frameworks/${PROJECT}.framework\" \"${SRCROOT}/build/${CURRENT_PLATFORM}/\"\n    mv \"${SRCROOT}/build/${CURRENT_PLATFORM}/${PROJECT}.xcarchive/dSYMs/${PROJECT}.framework.dSYM\" \"${SRCROOT}/build/${CURRENT_PLATFORM}/\"\n    rm -rf \"${SRCROOT}/build/${CURRENT_PLATFORM}/${PROJECT}.xcarchive/\"\n    fi\ndone\n";
+		};
+		7E14E5AD23CB52FB0064684C /* Create XCFramework */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Create XCFramework";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "XCODE_VERSION=$(xcodebuild -version | head -n 1| awk -F ' ' '{print $2}')\nXCODE_VERSION_MAJOR=$(echo $XCODE_VERSION | awk -F '.' '{print $1}')\nPROJECT=\"CouchbaseLite\"\nif [ $XCODE_VERSION_MAJOR -lt 11 ]\nthen\n    echo \"Xcode 10 does not support xcframework. You can still use the individual framework for each platform.\"\n    open -a Finder \"${SRCROOT}/build/\"\n    exit 0\nfi\n\ndeclare -a PLATFORMS=(\"iphoneos\" \"iphonesimulator\" \"maccatalyst\")\nCOMMAND_ARGS=\"\"\nfor CURRENT_PLATFORM in \"${PLATFORMS[@]}\"\ndo\n    COMMAND_ARGS=\"${COMMAND_ARGS} -framework ${SRCROOT}/build/${CURRENT_PLATFORM}/${PROJECT}.framework\"\ndone\n\n# Combine XCFramework\nxcodebuild -create-xcframework $COMMAND_ARGS -output \"${SRCROOT}/build/${PROJECT}.xcframework\"\nopen -a Finder \"${SRCROOT}/build/${PROJECT}.xcframework\"\n";
 		};
 		930FE5781C5857BF008107A0 /* Make a Fat Binary */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -5621,11 +5581,6 @@
 			target = 27B0B7E61492BB6B00A817AD /* CBL iOS */;
 			targetProxy = 270BDD741564514C007D52F6 /* PBXContainerItemProxy */;
 		};
-		27208F98184FC077006ADBEF /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 27FA59EA179EEACA0043460A /* Documentation */;
-			targetProxy = 27208F97184FC077006ADBEF /* PBXContainerItemProxy */;
-		};
 		272AA8471A48D835004B8D55 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 270B3DE91489359000E0A926 /* CBL Mac */;
@@ -5666,11 +5621,6 @@
 			target = 27B0B7A81492B83B00A817AD /* CBL iOS library */;
 			targetProxy = 27452BD11AB1182000327776 /* PBXContainerItemProxy */;
 		};
-		27452C1F1AB1F51600327776 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 27452BB71AB1180800327776 /* CBL iOS framework */;
-			targetProxy = 27452C1E1AB1F51600327776 /* PBXContainerItemProxy */;
-		};
 		275315FE14ACF87F0065964D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 270B3DE91489359000E0A926 /* CBL Mac */;
@@ -5691,41 +5641,6 @@
 			target = 275315D414ACF0A10065964D /* CBL Listener Mac */;
 			targetProxy = 27538F9617F1D327004C3BFD /* PBXContainerItemProxy */;
 		};
-		275A290B1649A54500B0D8EE /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 270B3DE91489359000E0A926 /* CBL Mac */;
-			targetProxy = 275A290A1649A54500B0D8EE /* PBXContainerItemProxy */;
-		};
-		275A290D1649A54700B0D8EE /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 27B0B7E61492BB6B00A817AD /* CBL iOS */;
-			targetProxy = 275A290C1649A54700B0D8EE /* PBXContainerItemProxy */;
-		};
-		275A290F1649A54A00B0D8EE /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 27C70693148864BA00F0F099 /* CBL Mac Test App */;
-			targetProxy = 275A290E1649A54A00B0D8EE /* PBXContainerItemProxy */;
-		};
-		275A29111649A54C00B0D8EE /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 27B0B80A1492C16300A817AD /* CBL iOS Test App */;
-			targetProxy = 275A29101649A54C00B0D8EE /* PBXContainerItemProxy */;
-		};
-		275A29131649A54F00B0D8EE /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 275315D414ACF0A10065964D /* CBL Listener Mac */;
-			targetProxy = 275A29121649A54F00B0D8EE /* PBXContainerItemProxy */;
-		};
-		275A29151649A55200B0D8EE /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = DA147C1F14BCAC3B0052DA4D /* CBL Listener iOS */;
-			targetProxy = 275A29141649A55200B0D8EE /* PBXContainerItemProxy */;
-		};
-		275A29171649A55500B0D8EE /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 270FE0C714C5008C005FF647 /* LiteServ */;
-			targetProxy = 275A29161649A55500B0D8EE /* PBXContainerItemProxy */;
-		};
 		27AD1F8717C29BE80063108F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = DA147C1F14BCAC3B0052DA4D /* CBL Listener iOS */;
@@ -5745,11 +5660,6 @@
 			isa = PBXTargetDependency;
 			name = "BLIP-iOS";
 			targetProxy = 27B0869B1B3882D400D3D9D8 /* PBXContainerItemProxy */;
-		};
-		27B15522164AD14E00DF5E2C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 27731F131495CFEF00815D67 /* CBL iOS Empty App */;
-			targetProxy = 27B15521164AD14E00DF5E2C /* PBXContainerItemProxy */;
 		};
 		27C3CF091C501A5C00BEE4EB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -5998,14 +5908,20 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 27FFFF151C973FB5001A70FC /* iOS framework_Debug.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD)";
-				"ARCHS[sdk=*]" = "$(ARCHS_STANDARD)";
-				"ARCHS[sdk=macosx*]" = "$(ARCHS_STANDARD)";
+				ARCHS = (
+					"$(ARCHS_STANDARD)",
+					i386,
+					x86_64,
+				);
 				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
-				DEVELOPMENT_TEAM = "";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VWD67942DL;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MACOSX_DEPLOYMENT_TARGET = 10.15;
-				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos macosx";
 				SUPPORTS_MACCATALYST = YES;
+				TARGETED_DEVICE_FAMILY = "1,2,6";
 				VALID_ARCHS = "arm64 arm64e armv7 armv7s x86_64";
 			};
 			name = Debug;
@@ -6014,13 +5930,20 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 27FFFF161C973FB5001A70FC /* iOS framework_Release.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD)";
-				"ARCHS[sdk=*]" = "$(ARCHS_STANDARD)";
-				"ARCHS[sdk=macosx*]" = "$(ARCHS_STANDARD)";
+				ARCHS = (
+					"$(ARCHS_STANDARD)",
+					i386,
+					x86_64,
+				);
 				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VWD67942DL;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MACOSX_DEPLOYMENT_TARGET = 10.15;
-				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos macosx";
 				SUPPORTS_MACCATALYST = YES;
+				TARGETED_DEVICE_FAMILY = "1,2,6";
 				VALID_ARCHS = "arm64 arm64e armv7 armv7s x86_64";
 			};
 			name = Release;
@@ -6109,7 +6032,8 @@
 			buildSettings = {
 				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = NO;
-				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos macosx";
 			};
 			name = Debug;
 		};
@@ -6119,7 +6043,8 @@
 			buildSettings = {
 				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = NO;
-				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos macosx";
 			};
 			name = Release;
 		};
@@ -6176,7 +6101,8 @@
 			baseConfigurationReference = 27FFFF391C973FB5001A70FC /* SQLite Storage_Debug.xcconfig */;
 			buildSettings = {
 				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
-				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos macosx";
 			};
 			name = Debug;
 		};
@@ -6185,7 +6111,8 @@
 			baseConfigurationReference = 27FFFF3A1C973FB5001A70FC /* SQLite Storage_Release.xcconfig */;
 			buildSettings = {
 				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
-				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos macosx";
 			};
 			name = Release;
 		};
@@ -6194,7 +6121,8 @@
 			baseConfigurationReference = 27FFFF0C1C973FB5001A70FC /* ForestDB Storage_Debug.xcconfig */;
 			buildSettings = {
 				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
-				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos macosx";
 			};
 			name = Debug;
 		};
@@ -6203,7 +6131,8 @@
 			baseConfigurationReference = 27FFFF0D1C973FB5001A70FC /* ForestDB Storage_Release.xcconfig */;
 			buildSettings = {
 				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
-				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos macosx";
 			};
 			name = Release;
 		};
@@ -6224,7 +6153,8 @@
 			baseConfigurationReference = 27FFFF421C973FB5001A70FC /* CBLJSViewCompiler_Debug.xcconfig */;
 			buildSettings = {
 				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
-				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos macosx";
 			};
 			name = Debug;
 		};
@@ -6233,7 +6163,8 @@
 			baseConfigurationReference = 27FFFF431C973FB5001A70FC /* CBLJSViewCompiler_Release.xcconfig */;
 			buildSettings = {
 				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
-				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos macosx";
 			};
 			name = Release;
 		};
@@ -6241,6 +6172,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 27FFFF481C973FB5001A70FC /* Listener iOS Library_Debug.xcconfig */;
 			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 			};
 			name = Debug;
 		};
@@ -6248,6 +6180,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 27FFFF491C973FB5001A70FC /* Listener iOS Library_Release.xcconfig */;
 			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 			};
 			name = Release;
 		};
@@ -6385,7 +6318,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		275A29071649A54000B0D8EE /* Build configuration list for PBXAggregateTarget "All" */ = {
+		275A29071649A54000B0D8EE /* Build configuration list for PBXAggregateTarget "XCFramework" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				275A29081649A54000B0D8EE /* Debug */,

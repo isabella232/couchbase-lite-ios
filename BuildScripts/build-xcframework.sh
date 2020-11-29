@@ -14,29 +14,30 @@ mkdir -p ${TMP_DIR}
 
 echo "Building ${PROJECT} for iOS..."
 xcodebuild archive \
+    -configuration "Release" \
     -project ${PROJECT}.xcodeproj \
     -scheme "${SCHEME}" \
-    -sdk iphoneos \
+    -destination "generic/platform=iOS" \
     -archivePath ${TMP_DIR}/${PROJECT}-iphoneos.xcarchive \
     SKIP_INSTALL=NO \
-    BUILD_LIBRARIES_FOR_DISTRIBUTION=YES \
-    SUPPORTS_MACCATALYST=YES
-    
+    BUILD_LIBRARIES_FOR_DISTRIBUTION=YES
+
 echo "Building ${PROJECT} for iOS Simulator..."
 xcodebuild archive \
+    -configuration "Release" \
     -project ${PROJECT}.xcodeproj \
     -scheme "${SCHEME}" \
-    -sdk iphonesimulator \
+    -destination "generic/platform=iOS Simulator" \
     -archivePath ${TMP_DIR}/${PROJECT}-iphonesimulator.xcarchive \
     SKIP_INSTALL=NO \
-    BUILD_LIBRARIES_FOR_DISTRIBUTION=YES \
-    SUPPORTS_MACCATALYST=YES
+    BUILD_LIBRARIES_FOR_DISTRIBUTION=YES
 
 echo "Building ${PROJECT} for macOS..."
 xcodebuild archive \
+    -configuration "Release" \
     -project ${PROJECT}.xcodeproj \
     -scheme "${SCHEME}" \
-    -sdk macosx \
+    -destination "generic/platform=macOS,variant=Mac Catalyst,name=Any Mac" \
     -archivePath ${TMP_DIR}/${PROJECT}-macosx.xcarchive \
     SKIP_INSTALL=NO \
     BUILD_LIBRARIES_FOR_DISTRIBUTION=YES \
